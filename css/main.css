@@ -1,0 +1,494 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Extrabold;
+    src: url("../fonts/Gilroy-Extrabold.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: Tavolga;
+    src: url("../fonts/Tavolgafree.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: Tavolga, sans-serif;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+}
+
+#header-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 36px 15px 30px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none !important;
+    font-size: 18px;
+    color: rgb(255, 255, 255) !important;
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+
+#menu-items {
+    align-items: center;
+    margin-right: 95px;
+}
+
+.menu-item {
+    text-decoration: none !important;
+    font-size: 14px;
+    font-family: "Gilroy-Medium",sans-serif;
+    color: rgb(119, 11, 29) !important;
+    margin-right: 40px;
+    letter-spacing: 0.04em;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(119, 11, 29);
+    box-sizing: border-box;
+}
+
+#burger {
+    display: none;
+}
+
+#menu-items svg {
+    display: none;
+}
+
+.cls-4 {
+    fill: rgb(130, 19, 40);
+}
+
+.phone {
+    font-size: 16px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    align-items: center;
+    letter-spacing: 0.02em;
+    max-width: 155px;
+}
+
+#Macaroons-main {
+    background-color: rgb(235, 168, 177);
+}
+
+#Macaroons-main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 125px 15px 108px 15px;
+    display: flex;
+}
+
+#Macaroons-main-text {
+    max-width: 603px;
+    margin-right: 14px;
+    color: rgb(255, 255, 255);
+    align-items: flex-start;
+}
+
+#Macaroons-main-text h1 {
+    margin: 0;
+    font-size: 55px;
+    line-height: 1.091;
+}
+
+#Macaroons-main-text-description {
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 1.389;
+    margin: 59px 0 80px 0;
+}
+
+.button-order {
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.02em;
+    border-radius: 30px;
+    border: 1px solid #b9354a;
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    padding: 21px 43px;
+    outline: 0;
+    color: rgb(255, 255, 255);
+}
+
+#Macaroons-main-image {
+    align-items: flex-start;
+}
+
+#Macaroons-plus {
+    background-color: rgb(255, 239, 239);
+}
+
+#Macaroons-plus-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 119px 15px 120px 15px;
+}
+
+#Macaroons-plus-text-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#Macaroons-plus-text {
+    max-width: 505px;
+    color: rgb(51, 25, 7);
+}
+
+#Macaroons-plus-text h2 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 1.222;
+}
+
+.plus-description {
+    font-family: "Gilroy-Regular",sans-serif;
+    line-height: 1.556;
+    margin-top: 20px;
+}
+
+#Macaroons-plus-text .plus-description {
+    margin-top: 60px;
+    max-width: 400px;
+    font-size: 18px;
+}
+
+#Macaroons-plus-image {
+    margin-bottom: -10px;
+}
+
+#container-with-plus {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus-container {
+    max-width: 221px;
+}
+
+#container-with-plus svg {
+    margin-bottom: 21px;
+    width: 70px;
+    height: 72px;
+}
+
+.cls-1 {
+    fill: #821328;
+}
+
+.cls-2 {
+    fill: #fff;
+    fill-rule: evenodd;
+}
+
+.plus-title {
+     font-size: 20px;
+     font-family: "Gilroy-Extrabold",sans-serif;
+     color: rgb(51, 25, 7);
+     margin-bottom: 20px;
+}
+
+.plus-description {
+    font-size: 15px;
+    font-family: "Gilroy-Medium",sans-serif;
+    color: rgb(51, 25, 7);
+}
+
+#choose-macaroons {
+     background-color: rgb(235, 168, 177);
+}
+
+#choose-macaroons-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 119px 15px 120px 15px;
+    text-align: center;
+}
+
+#choose-macaroons-container h3 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+#type-macaroons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 143px;
+}
+
+.type-macaroons {
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 263px;
+    position: relative;
+    padding: 109px 20px 31px 20px;
+}
+
+
+.type-macaroons-image {
+    position: absolute;
+    top: -60px;
+    left: 35px;
+}
+
+.type-macaroons-title {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.type-macaroons-description-container {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.type-macaroons-description {
+    font-size: 15px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(255, 255, 255);
+    margin-right: 32px;
+    width: 57px;
+    text-align: left;
+}
+
+.sale {
+    margin-top: 16px;
+}
+
+#type-macaroons-container button {
+    width: 130px;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 19px 29px;
+}
+
+#order-macaroons {
+    background-color: rgb(255, 239, 239);
+}
+
+#order-macaroons-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 98px 30px 164px 120px;
+    display: flex;
+    align-items: center;
+}
+
+#order-macaroons-image {
+    width: 408px;
+    position: relative;
+    margin-right: 161px;
+}
+
+#strawberry_left {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+#order-macaroons-text {
+    max-width: 410px;
+    position: relative;
+}
+
+#order-macaroons-text h4 {
+    margin: 0;
+     font-size: 45px;
+     color: rgb(51, 25, 7);
+}
+
+#order-macaroons-choose {
+    font-size: 18px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    margin-top: 41px;
+    margin-bottom: 8px;
+}
+
+.label {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    letter-spacing: 0.02em;
+    color: rgb(18, 10, 6);
+}
+
+.btn-form {
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    width: 295px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    outline: 0;
+}
+
+input {
+    background: transparent;
+    padding: 23px 26px;
+    outline: 0;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(118, 12, 34);
+}
+
+#order-macaroons-choose button {
+    background: rgb(130, 19, 40);
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 21px 75px;
+}
+
+#strawberry_right {
+    position: absolute;
+    bottom: 82px;
+    right: 0;
+}
+
+#footer {
+    background-color: rgb(192, 112, 124);
+}
+
+#footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 80px 15px 62px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#logo-footer-container {
+    max-width: 180px;
+}
+
+#trademark {
+    font-size: 12px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(227, 172, 180);
+    letter-spacing: 0.04em;
+    margin-top: 19px;
+}
+
+#footer-container svg {
+    fill: #ffffff;
+    width: 35px;
+}
+
+#Instagram-container {
+    text-align: center;
+}
+
+#Instagram-container a {
+    text-decoration: none;
+}
+
+#Instagram-container svg:hover {
+    fill: black;
+}
+
+#Instagram {
+    font-size: 16px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.02em;
+    margin-top: 5px;
+}
+
+#footer-container .phone {
+    margin-top: 20px;
+}
+
+
+
+.hvr-rectangle-out:hover {
+    background: #f3a600;
+    border: 1px solid #f3a600;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 30px;
+    outline: none;
+}
+
+.hvr-rectangle-out:before {
+    background: #f3a600;
+    border: 1px solid #f3a600;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 30px;
+    outline: none;
+}
+
+.hvr-rectangle-out:focus {
+    background: #f3a600;
+    border: 1px solid #f3a600;
+    box-sizing: border-box;
+    border-radius: 30px;
+    outline: none;
+}
+
+.white-popup {
+    position: relative;
+    font-size: 20px;
+    background: rgb(235, 168, 177);
+    font-family: "Gilroy-Medium",sans-serif;
+    color: rgb(119, 11, 29);
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img.mfp-img {
+    width: 30em;
+    height: 20em;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 0 auto;
+}

@@ -1,0 +1,417 @@
+/* 1024 - 1229 */
+@media screen and (max-width: 1229px) {
+    #Macaroons-plus-text h1 {
+        max-width: 480px;
+    }
+
+    #type-macaroons-container {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    #Macaroons-main-text h3 {
+        margin-bottom: -20px;
+    }
+
+    .type-macaroons {
+        margin-top: 142px;
+    }
+}
+
+/* 1024 - 1160 */
+@media screen and (max-width: 1160px) {
+    #Macaroons-main-text {
+        max-width: 340px;
+    }
+
+    #Macaroons-main-container {
+        justify-content: center;
+    }
+}
+
+/* 1024 - 1130 */
+@media screen and (max-width: 1130px) {
+    #type-macaroons-container {
+        max-width: 560px;
+    }
+
+    #order-macaroons-image {
+        width: 408px;
+        position: relative;
+        margin-right: 20px;
+    }
+}
+
+/* 768 - 1080 */
+@media screen and (max-width: 1080px) {
+    #Macaroons-plus-text-block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #Macaroons-plus-text {
+        max-width: 670px;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #Macaroons-plus-text h2 {
+        max-width: 480px;
+    }
+
+    #Macaroons-plus-text .plus-description {
+        margin-bottom: 50px;
+        max-width: 668px;
+    }
+}
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    #header-container .phone {
+        display: none;
+    }
+
+    #Macaroons-main-container {
+        justify-content: flex-start;
+        max-width: 638px;
+        flex-wrap: wrap;
+        padding-top: 54px;
+        padding-bottom: 62px;
+    }
+
+    #Macaroons-main-text-description {
+        margin-top: 73px;
+        margin-bottom: 41px;
+        margin-right: 0;
+    }
+
+    #Macaroons-main-image {
+        margin-left: 160px;
+        margin-top: -90px;
+    }
+
+    #container-with-plus {
+        flex-wrap: wrap;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #Macaroons-plus-container {
+        text-align: center;
+    }
+
+    .plus-container {
+        margin-top: 80px;
+    }
+
+    #order-macaroons-container {
+        padding: 98px 15px 164px 15px;
+        margin: 0 auto;
+        align-items: flex-start;
+        position: relative;
+        max-width: 738px;
+    }
+
+    #order-macaroons-image {
+        bottom: -10px;
+        right: 30px;
+        width: 352px;
+        height: 499px;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    #order-macaroons-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #strawberry_right {
+        position: absolute;
+        top: 125px;
+        right: -220px;
+    }
+}
+
+/* 425 - 1001 */
+@media screen and (max-width: 1001px) {
+    #Macaroons-plus-container {
+        text-align: center;
+    }
+
+    #Macaroons-plus-text-block {
+        align-items: center;
+    }
+
+    #Macaroons-plus-image img {
+        width: 302px;
+        height: 183px;
+    }
+}
+
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+    #header-container {
+        align-items: center;
+    }
+
+    #menu-items {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .cls-3 {
+        fill: rgb(130, 19, 40);
+    }
+
+    #Macaroons-main-container {
+        text-align: center;
+        padding-bottom: 43px;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+    #Macaroons-main-text {
+        margin-right: 0;
+    }
+
+    #Macaroons-main-text h1 {
+        font-size: 32px;
+    }
+
+    #Macaroons-main-text-description {
+        font-size: 16px;
+    }
+
+    #Macaroons-main-image {
+        margin: 38px auto 0 auto;
+        max-height: 207px;
+        max-width: 250px;
+    }
+
+    #Macaroons-main-image img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #Macaroons-main-text-description {
+        margin: 40px auto;
+    }
+
+    #Macaroons-plus-text .plus-description {
+        font-size: 16px;
+    }
+
+    #Macaroons-plus-container {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    #container-with-plus {
+        max-width: 494px;
+    }
+
+    #choose-macaroons-container {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    #order-macaroons-container {
+        padding-bottom: 77px;
+        padding-top: 100px;
+        max-width: 345px;
+        margin: 0 auto;
+    }
+
+    #order-macaroons-text h4 {
+        font-size: 30px;
+    }
+
+    #order-macaroons-choose {
+        font-size: 16px;
+    }
+
+    #macaron_PNG56 {
+        opacity: 0;
+    }
+
+    #strawberry_left {
+        top: -50px;
+        left: 300px;
+        width: 72px;
+        height: 89px;
+    }
+
+    #strawberry_right {
+        display: none;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        padding: 50px 0 101px 0;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    #logo-footer-container {
+        text-align: center;
+        position: relative;
+    }
+
+    #logo-footer-container .logo {
+        text-align: center;
+        order: 1;
+    }
+
+    #footer-container .phone {
+        margin-top: 30px;
+        margin-bottom: 35px;
+        order: 2;
+    }
+
+    #Instagram-container {
+        margin: 0 auto;
+        order: 3;
+    }
+
+    #trademark {
+        position: absolute;
+        top: 205px;
+        left: -35px;
+        width: 180px;
+        margin-top: 0;
+    }
+
+    #menu-items {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000d9;
+        top: 0;
+        left: 0;
+    }
+
+    #burger {
+        display: block;
+        margin-right: 20px;
+        fill: #f9d6a6;
+    }
+
+    #burger:hover {
+        cursor: pointer;
+    }
+
+    #menu-items.open {
+        display: flex;
+    }
+
+    #menu-items svg {
+        display: block;
+        width: 24px;
+        fill: rgb(130, 19, 40);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #menu-items svg:hover {
+        cursor: pointer;
+    }
+
+    #burger svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    #menu-items a.menu-item {
+        margin: 15px 5px;
+    }
+
+}
+
+/* 425 - 580 */
+@media screen and (max-width: 580px) {
+    #type-macaroons-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #choose-macaroons-container h3 {
+        font-size: 30px;
+    }
+
+    #Macaroons-plus-text h2 {
+        font-size: 30px;
+    }
+
+    #container-with-plus {
+        max-width: 380px;
+    }
+
+    .plus-title {
+        font-size: 18px;
+    }
+
+    .plus-container {
+        max-width: 165px;
+    }
+
+    .plus-description {
+        font-size: 13px;
+    }
+
+}
+
+/* 375 - 424 */
+@media screen and (max-width: 424px) {
+}
+
+
+/* 320 - 374 */
+@media screen and (max-width: 374px) {
+    #container-with-plus {
+        justify-content: center;
+    }
+
+    .plus-container {
+        margin-top: 30px;
+        max-width: 300px;
+    }
+
+    #Macaroons-main-container {
+        padding-top: 44px;
+    }
+
+    #Macaroons-plus-container {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    #choose-macaroons-container {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    #order-macaroons-container {
+        padding-bottom: 57px;
+        padding-top: 60px;
+    }
+
+    .type-macaroons {
+        margin-top: 122px;
+    }
+
+}
